@@ -1,0 +1,10 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.exe
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.runtimeconfig.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.runtimeconfig.dev.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\bin\Debug\netcoreapp3.0\TestConsoleApp1.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\obj\Debug\netcoreapp3.0\TestConsoleApp1.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\obj\Debug\netcoreapp3.0\TestConsoleApp1.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\obj\Debug\netcoreapp3.0\TestConsoleApp1.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\TestConsoleApp1\obj\Debug\netcoreapp3.0\TestConsoleApp1.pdb

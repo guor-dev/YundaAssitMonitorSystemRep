@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mongocsharpdriver" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YunDa.Core\YunDa.ISAS.Core\YunDa.ISAS.Core.csproj" />
+    <ProjectReference Include="..\YunDa.ISAS.Entities\YunDa.ISAS.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

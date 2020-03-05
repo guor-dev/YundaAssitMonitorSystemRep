@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "设备类型维护";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="animated fadeIn full-height row ">
+    <div class="full-height equipment-type">
+            <div class="form-inline" id="equipmentTypeTableToolbar" role="group">
+                <div class="form-group">
+                    <label class="control-label" for="searchEquipmentTypeName">名称：</label>
+                    <input type="text" class="form-control" placeholder="请选择类型名称" id="searchEquipmentTypeName">
+                </div>
+                <button type="button" class="btn btn-primary" id="searchEquipmentTypeBtn">
+                    <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+                </button>
+                <button class="btn btn-primary" id="addEquipmentTypeBtn">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    &nbsp;添加
+                </button>
+                <button type="button" class="btn btn-danger" id="delEquipmentTypeBtn">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    &nbsp;删除
+                </button>
+            </div>
+            <table id="equipmentTypeTable" data-height="100%" data-mobile-responsive="true">
+            </table>
+    </div>
+</div>
+
+<div class="modal inmodal fade" id="editEquipmentTypeModal" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:480px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}类型</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editEquipmentTypeForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="equipmentTypeName"><span class="text-danger">*</span>类型名称：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入设备类型名称" v-model="equipmentTypeName" id="equipmentTypeName" name="equipmentTypeName">
+                            @*<vue-chosen :placeholder="'请选择设备类型名称'" :default_value="equipmentTypeName" :options="equipmentTypeNames" v-on:change="setEquipmentTypeName" id="equipmentTypeName" name="equipmentTypeName"></vue-chosen>*@
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="save">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <!-- 自定义js -->
+    @* <script src="~/js/content.js?v=1.0.0"></script>*@
+    @* page.js *@
+    <script src="~/view-resources/Views/EquipmentType/EquipmentType.js"></script>
+    @*<script src="~/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>*@
+
+}
+@section styles{
+
+    <style>
+        .blackboard {
+            background: radial-gradient(#415E3D, #132D1C);
+            border: 8px solid #C7945C;
+            overflow-y: auto;
+            height: 100%;
+            padding: 30px 10px;
+        }
+
+        .blackboard_img {
+            background-image: url(../../img/blackboard.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .equipment-substation {
+            padding-right: 0px;
+            border-color: #39aef5 !important;
+            border-width: 2px !important;
+        }
+
+        .equipment-type {
+            height: 100%;
+            overflow-y: auto;
+            border-color: #39aef5 !important;
+            border-width: 2px !important;
+        }
+    </style>
+}

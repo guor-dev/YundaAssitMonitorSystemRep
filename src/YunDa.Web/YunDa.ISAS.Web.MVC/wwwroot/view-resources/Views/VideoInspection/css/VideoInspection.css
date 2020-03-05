@@ -1,0 +1,52 @@
+﻿.blackboard {
+    /*background: linear-gradient(to top right,#132D1C, #415E3D 50%, #132D1C);*/
+    background: radial-gradient(#415E3D, #132D1C);
+    border: 8px solid #C7945C;
+    overflow-y: auto;
+    height: 100%;
+    padding: 25px 0px;
+}
+
+.blackboard_img {
+    background-image: url(../../img/blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.thumbtack_blackboard {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #269BDE;
+    padding: 3px 8px;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg); /* IE 9 */
+    -moz-transform: rotate(-17deg); /* Firefox */
+    -webkit-transform: rotate(-17deg); /* Safari 和 Chrome */
+    -o-transform: rotate(-17deg);
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid red;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    color: white
+}
+
+    .triangle > i {
+        margin: -24px 0px 0px -14px;
+        position: absolute;
+    }

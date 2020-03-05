@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "用户管理";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <style>
+    </style>
+}
+<div class="animated fadeIn" style="height:100%;">
+    <div class="form-inline hidden-xs" id="tableUserToolbar" role="group">
+        <div class="form-group">
+            <label class="control-label">用户名：</label>
+            <input type="text" class="form-control" placeholder="请输入用户名" id="searchUserName">
+        </div>
+        <button type="button" class="btn btn-primary" id="searchBtn">
+            <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+        </button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#editModal" id="addBtn">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            &nbsp;添加
+        </button>
+        <button type="button" class="btn btn-danger" id="delBtn">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            &nbsp;删除
+        </button>
+    </div>
+    <table id="tableUser" data-height="100%" data-mobile-responsive="true">
+    </table>
+    <!-- End Example Events -->
+</div>
+<div class="modal inmodal fade" id="editModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:450px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>用户名：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入用户名" v-model="userName" id="userName" name="userName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>密码：</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" placeholder="请输入密码" v-model="password" id="password" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>确认密码：</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" placeholder="请再次输入密码" v-model="confirmPassword" id="confirmPassword" name="confirmPassword">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>真实姓名：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入真实姓名" v-model="realName" id="realName" name="realName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">电话号码：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入电话号码" v-model="phoneNumber" id="phoneNumber" name="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">邮箱地址：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入邮箱地址" v-model="emailAddress" id="emailAddress" name="emailAddress">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive" id="isActive" name="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="saveUser">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/view-resources/Views/User/UserPage.js"></script>
+}

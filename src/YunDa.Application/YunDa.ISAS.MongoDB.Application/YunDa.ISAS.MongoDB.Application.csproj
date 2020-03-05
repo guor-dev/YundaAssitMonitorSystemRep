@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.MongoDB.Application\YunDa.ISAS.MongoDB.Application.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YunDa.Domain\YunDa.ISAS.MongoDB\YunDa.ISAS.MongoDB.csproj" />
+    <ProjectReference Include="..\YunDa.ISAS.Application.Core\YunDa.ISAS.Application.Core.csproj" />
+  </ItemGroup>
+</Project>

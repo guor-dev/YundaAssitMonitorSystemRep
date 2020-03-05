@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "厂商管理";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <style>
+    </style>
+}
+<div class="animated fadeIn" style="height:100%;">
+    <div class="form-inline hidden-xs" id="tableToolbar" role="group">
+        <div class="form-group">
+            <label class="control-label" for="searchManufactureName">厂商名称：</label>
+            <input type="text" class="form-control" placeholder="请输入厂商名" id="searchManufactureName">
+        </div>
+        <button type="button" class="btn btn-primary" id="searchManufactureBtn">
+            <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+        </button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#editManufactureModal" id="addManufactureBtn">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            &nbsp;添加
+        </button>
+        <button type="button" class="btn btn-danger" id="delManufactureBtn">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            &nbsp;删除
+        </button>
+    </div>
+    <table id="tableManufacture" data-height="100%" data-mobile-responsive="true">
+    </table>
+</div>
+
+<!--mini厂商软删除 恢复/彻底删除 窗口开始-->
+<div class="small-chat-box fadeInRight animated" style="width:500px;height:450px;bottom:40px;right:65px;">
+    <div class="heading" draggable="true">
+        已删除的厂商
+    </div>
+    <div class="content" style="padding:0px!important">
+        <div style="padding:0px 5px;">
+            <div class="form-inline" id="sd_tableToolbar">
+                <label class='control-label'>厂商名称：</label>
+                <div class='form-group'>
+                    <input type='text' class='form-control' placeholder='请输入厂商名称' id="sd_searchManufactureName">
+                </div>
+                <button type='button' class='btn btn-outline btn-primary' id='sd_searchManufactureBtn'>
+                    <i class='fa fa-search' aria-hidden='true'></i>
+                </button>
+                <button class='btn btn-outline btn-primary' title="恢复厂商" id='sd_recoverManufactureBtn'>
+                    <i class='fa fa-reply' aria-hidden='true'></i>
+                </button>
+                <button type='button' class='btn btn-outline btn-danger' title="彻底删除" id='sd_delManufactureBtn'>
+                    <i class='fa fa-trash' aria-hidden='true'></i>
+                </button>
+            </div>
+            <table id='sd_ManufactureTable'>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="small-chat" style="bottom:5px;">
+    <a class="open-small-chat" style="padding:2px;font-size:23px;border-radius:10%;">
+        <i class="fa fa-trash"></i>
+    </a>
+</div>
+<!--mini厂商软删除 恢复/彻底删除 窗口结束-->
+
+<div class="modal inmodal fade" id="editManufactureModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:450px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}厂商</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="manufacturerName"><span class="text-danger">*</span>厂商名称：</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="请输入厂商名称" v-model="manufacturerName" id="manufacturerName" name="manufacturerName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="phoneNumber">电话：</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="请输入电话号码" v-model="phoneNumber" id="phoneNumber" name="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="emailAddress"><span class="text-danger"></span>邮件地址：</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="请输入 e-mail 地址" v-model="emailAddress" id="emailAddress" name="emailAddress">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="manufacturerAddress"><span class="text-danger"></span>地址：</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="请输入地址" v-model="manufacturerAddress" id="manufacturerAddress" name="manufacturerAddress">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-7">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">备注：</label>
+                        <div class="col-sm-7">
+                            <textarea class="form-control" placeholder="备注" v-model="remark"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="save">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="~/view-resources/Views/ManufacturerInfo/ManufacturerInfo.js"></script>
+}

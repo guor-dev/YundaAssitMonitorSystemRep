@@ -1,0 +1,40 @@
+﻿[*.cs]
+
+# CA1031: Do not catch general exception types
+dotnet_diagnostic.CA1031.severity = none
+
+# CA1303: 请不要将文本作为本地化参数传递
+dotnet_diagnostic.CA1303.severity = none
+
+# CA1305: 指定 IFormatProvider
+dotnet_diagnostic.CA1305.severity = none
+
+# CA1307: 指定 StringComparison
+dotnet_diagnostic.CA1307.severity = none
+
+# CA1304: 指定 CultureInfo
+dotnet_diagnostic.CA1304.severity = none
+
+# CA2000: 丢失范围之前释放对象
+dotnet_diagnostic.CA2000.severity = none
+
+# CA5351: 不要使用损坏的加密算法
+dotnet_diagnostic.CA5351.severity = none
+
+# CA1822: 将成员标记为 static
+dotnet_diagnostic.CA1822.severity = none
+
+# CA1810: 以内联方式初始化引用类型的静态字段
+dotnet_diagnostic.CA1810.severity = none
+
+# IDE0058: 永远不会使用表达式值
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+
+# CA1806: 不要忽略方法结果
+dotnet_diagnostic.CA1806.severity = none
+
+# CS1591: 缺少对公共可见类型或成员的 XML 注释
+dotnet_diagnostic.CS1591.severity = none
+
+# CA1062: 验证公共方法的参数
+dotnet_diagnostic.CA1062.severity = none

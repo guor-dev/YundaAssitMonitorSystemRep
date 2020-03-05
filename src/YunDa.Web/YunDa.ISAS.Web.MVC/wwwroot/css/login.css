@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body.signin {
+    background: #18c8f6;
+    height: auto;
+    background: url("../img/login-background_2.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgba(255,255,255,.95);
+}
+
+.logopanel {
+    margin: 13% auto 0 auto;
+    width: 350px;
+    position: absolute;
+    right: 150px;
+}
+
+    .logopanel .form-control {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .logopanel .uname {
+        background: #fff url(../img/user.png) no-repeat 95% center;
+        color: #333;
+    }
+
+    .logopanel .pword {
+        background: #fff url(../img/locked.png) no-repeat 95% center;
+        color: #333;
+    }
+
+    .logopanel .btn {
+        margin-top: 15px;
+        height: 40px;
+    }
+
+    .logopanel form {
+        background: rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(255,255,255,.3);
+        -moz-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+        -webkit-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+        box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 30px;
+    }
+
+.signup-footer {
+    /*border-top: solid 1px rgba(255,255,255,.3);*/
+    margin: 15px 0;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .logopanel {
+        margin: 0 auto;
+        width: 420px !important;
+        padding: 20px;
+        right: 35px;
+    }
+
+    .signinpanel form {
+        margin-top: 20px;
+    }
+
+    .signup-footer {
+        margin-bottom: 10px;
+    }
+
+    .logopanel .form-control {
+        margin-bottom: 10px;
+    }
+
+    .signup-footer .pull-left,
+    .signup-footer .pull-right {
+        float: none !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logopanel {
+        margin: 0 20px;
+        width: auto;
+        right: 0px;
+    }
+}

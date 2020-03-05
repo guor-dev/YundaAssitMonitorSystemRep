@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>YunDa.ISAS.Web.Core</AssemblyName>
+    <PackageId>YunDa.ISAS.Web.Core</PackageId>
+    <UserSecretsId>YunDa-ISAS-5F9F2126-6913-40F7-BB3E-166FB37D0539</UserSecretsId>
+    <RootNamespace>YunDa.ISAS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.0.0" />
+    <PackageReference Include="Abp.Castle.Log4Net" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YunDa.Application\YunDa.ISAS.Application\YunDa.ISAS.Application.csproj" />
+    <ProjectReference Include="..\..\YunDa.Application\YunDa.ISAS.DataTransferObject\YunDa.ISAS.DataTransferObject.csproj" />
+    <ProjectReference Include="..\..\YunDa.Application\YunDa.ISAS.MongoDB.Application\YunDa.ISAS.MongoDB.Application.csproj" />
+  </ItemGroup>
+</Project>

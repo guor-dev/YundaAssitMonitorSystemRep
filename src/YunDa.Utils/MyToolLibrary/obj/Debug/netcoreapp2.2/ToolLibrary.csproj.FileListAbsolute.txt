@@ -1,0 +1,8 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\bin\Debug\netcoreapp2.2\ToolLibrary.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\bin\Debug\netcoreapp2.2\ToolLibrary.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\bin\Debug\netcoreapp2.2\ToolLibrary.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\obj\Debug\netcoreapp2.2\ToolLibrary.csprojAssemblyReference.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\obj\Debug\netcoreapp2.2\ToolLibrary.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\obj\Debug\netcoreapp2.2\ToolLibrary.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\obj\Debug\netcoreapp2.2\ToolLibrary.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Utils\MyToolLibrary\obj\Debug\netcoreapp2.2\ToolLibrary.pdb

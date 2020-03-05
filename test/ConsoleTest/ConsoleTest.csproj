@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\YunDa.Application\YunDa.ISAS.DataTransferObject\YunDa.ISAS.DataTransferObject.csproj" />
+    <ProjectReference Include="..\..\src\YunDa.Utils\MyToolLibrary\ToolLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

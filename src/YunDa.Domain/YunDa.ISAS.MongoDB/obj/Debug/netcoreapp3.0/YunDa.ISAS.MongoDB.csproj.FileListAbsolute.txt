@@ -1,0 +1,13 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.Core.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.Entities.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.Core.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\bin\Debug\netcoreapp3.0\YunDa.ISAS.Entities.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.csprojAssemblyReference.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.csproj.CopyComplete
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.MongoDB\obj\Debug\netcoreapp3.0\YunDa.ISAS.MongoDB.pdb

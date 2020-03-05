@@ -1,0 +1,56 @@
+﻿@using YunDa.ISAS.Core;
+@model ISAS.Web.MVC.Models.Account.LoginFormViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>智能变电站辅助系统 - 登录</title>
+    <meta name="keywords" content="智能变电站辅助系统">
+    <meta name="description" content="智能变电站辅助系统是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/font-awesome.min.css?v=4.7" rel="stylesheet">
+    <link href="~/css/animate.css" rel="stylesheet">
+    <link href="~/css/plugins/bootstrap-checkbox/bootstrap-checkbox-new.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/login.css" rel="stylesheet">
+    <script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }</script>
+</head>
+
+<body class="signin">
+    <div class="logopanel" id="LoginArea">
+        <form id="LoginForm" method="post" asp-action="LoginAction">
+            <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+            <input type="hidden" name="returnUrlHash" />
+            <div class="row">
+                <p class="col-md-12" style="font-size:14px;color:red;margin:0px;padding:0px;">@Model.LoginMessage</p>
+            </div>
+            <input type="text" name="UserName" class="form-control uname" placeholder="用户名" required="" value="@Model.UserName" />
+            <input type="password" name="Password" class="form-control pword m-b" placeholder="密码" required="" />
+            <div class="checkbox checkbox-primary">
+                <input type="checkbox" name="RememberMe" value="true" />
+                <label class="m-l-xs">记住我</label>
+            </div>
+            <button class="btn btn-success btn-block" type="submit">登录</button>
+        </form>
+    </div>
+    <div class="signup-footer">
+        <div class="pull-right">
+            &copy;@AppVersionHelper.CompanyName 版权所有&nbsp;&nbsp;&nbsp;&nbsp;地址：@AppVersionHelper.CompanyAddress &nbsp;&nbsp;&nbsp;&nbsp;版本 @AppVersionHelper.Version [@AppVersionHelper.ReleaseDate.ToString("yyyyMMdd")]
+        </div>
+    </div>
+    <script src="~/js/jquery-3.4.1.min.js?v=3.4.1"></script>
+    <script src="~/js/jquery-ui-1.10.4.min.js"></script>
+    <script src="~/js/bootstrap.min.js?v=3.3.6"></script>
+    <!-- iCheck -->
+    <script src="~/view-resources/Views/Account/Login.js"></script>
+</body>
+</html>

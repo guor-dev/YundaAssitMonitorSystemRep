@@ -1,0 +1,16 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.exe
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.runtimeconfig.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.runtimeconfig.dev.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\bin\Debug\netcoreapp3.1\EchoApp.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\staticwebassets\EchoApp.StaticWebAssets.Manifest.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\staticwebassets\EchoApp.StaticWebAssets.xml
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.RazorTargetAssemblyInfo.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\test\WebSocketsSample\obj\Debug\netcoreapp3.1\EchoApp.csprojAssemblyReference.cache

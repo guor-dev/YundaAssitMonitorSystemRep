@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YunDa.Core\YunDa.ISAS.Core\YunDa.ISAS.Core.csproj" />
+    <ProjectReference Include="..\..\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\YunDa.ISAS.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\YunDa.ISAS.DataTransferObject\YunDa.ISAS.DataTransferObject.csproj" />
+  </ItemGroup>
+</Project>

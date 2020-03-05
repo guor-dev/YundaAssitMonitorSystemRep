@@ -1,0 +1,304 @@
+﻿@{
+    ViewData["Title"] = "视频巡检设置";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <link href="~/css/plugins/chosen/chosen.min.css" rel="stylesheet">
+    <link href="~/css/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <link href="~/view-resources/Views/VideoInspection/css/VideoInspection.css" rel="stylesheet">
+}
+<div class="animated fadeIn full-height row">
+    <div class="col-sm-2 border-right full-height" style="padding-right:0px;border-color:#39aef5!important;border-width:2px!important;">
+        @await Html.PartialAsync("~/Views/TranSubstation/_TranSubstationTree.cshtml")
+    </div>
+    <div class="col-sm-10 full-height">
+        <div class="border-bottom" style="height:35%;overflow-y:auto;border-color:#39aef5!important;border-width:2px!important;">
+            <div class="form-inline" id="cardTableToolbar" role="group">
+                <div class="form-group">
+                    <label class="control-label">名称：</label>
+                    <input type="text" class="form-control" placeholder="请输入巡检单名称" id="searchCardName">
+                </div>
+                <button type="button" class="btn btn-primary" id="searchCardBtn">
+                    <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+                </button>
+                <button class="btn btn-primary" id="addCardBtn">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    &nbsp;添加
+                </button>
+                <button type="button" class="btn btn-danger" id="delCardBtn">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    &nbsp;删除
+                </button>
+            </div>
+            <table id="cardTable" data-height="100%" data-mobile-responsive="true">
+            </table>
+        </div>
+        <div id="cardChildrenDiv" class="white-bg" style="height:65%;overflow-y:auto;">
+            <div class="panel blank-panel">
+                <div class="panel-heading">
+                    <div class="panel-options">
+                        <ul id="cardChildrenTab" class="nav nav-tabs">
+                            <li class="active">
+                                <a data-toggle="tab" href="#inspectionItem"><i class="fa fa-laptop"></i>任务项点</a>
+                            </li>
+                            <li class="">
+                                <a data-toggle="tab" href="#inspectionPlanTask"><i class="fa fa-desktop"></i>计划任务</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel-body" style="padding-bottom:0px;">
+                    <div class="tab-content">
+                        <div id="inspectionItem" class="tab-pane active">
+                            <div class="form-inline" id="itemTableToolbar" role="group">
+                                <div class="form-group">
+                                    <label class="control-label">名称：</label>
+                                    <input type="text" class="form-control" placeholder="请输入任务项点名称" id="searchItemName">
+                                </div>
+                                <button type="button" class="btn btn-primary" id="searchItemBtn">
+                                    <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+                                </button>
+                                <button class="btn btn-primary" data-toggle="modal" id="addItemBtn">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                    &nbsp;添加
+                                </button>
+                                <button type="button" class="btn btn-danger" id="delItemBtn">
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                    &nbsp;删除
+                                </button>
+                            </div>
+                            <table id="itemTable" data-height="100%" data-mobile-responsive="true">
+                            </table>
+                        </div>
+
+                        <div id="inspectionPlanTask" class="tab-pane">
+                            <div id="planTaskVueDiv" class="row">
+                                <div class="col-sm-9 blackboard">
+                                    <ul class="notes">
+                                        <li v-for="task in planTaskDatas" class="animated flipInX">
+                                            <div style="height:120px;" v-on:click="selectPlanTask(task.id)" :id="task.id">
+                                                <span class="thumbtack_blackboard">
+                                                    <i class="fa fa-thumb-tack"></i>
+                                                </span>
+                                                <small>{{task.planTaskName}}</small>
+                                                <h2>{{task.executionWeekText+" "+task.executionTime}}</h2>
+                                                <p>{{task.remark}}</p>
+                                                <button class='btn-link' v-on:click="delPlanTask(task.id)"><i class="fa fa-trash-o "></i></button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-3 full-height" style="overflow-y:auto;">
+                                    <div class="page-header border-bottom">
+                                        <h3 class="modal-title">添加任务</h3>
+                                    </div>
+                                    <div id="editPlanTaskDiv">
+                                        <form class="form-horizontal" id="editPlanTaskForm" role="form">
+                                            <div class="form-group">
+                                                <label class="col-sm-3 control-label"><span class="text-danger">*</span>星期：</label>
+                                                <div class="col-sm-9 input-group">
+                                                    <input class="form-control" type="text" placeholder="请选择星期" readonly="readonly" v-model="executionWeekText" id="executionWeekText" name="executionWeekText">
+                                                </div>
+                                                <div class="col-sm-offset-3 col-sm-9" id="weekGroupDiv" style="padding:4px;">
+                                                    <button type="button" style="margin:4px;" v-for="w in weekDatas" v-bind:class="['btn','btn-info',w.isActive?'':'btn-outline']" v-on:click="weekBtnClick(w.value,w.text)">{{w.text}}</button>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-3 control-label"><span class="text-danger">*</span>时间：</label>
+                                                <div class="col-sm-9 input-group" data-autoclose="true">
+                                                    <vue-clockpicker :default_value="executionTime" :time_placement="timePlacement" :time_align="timeAlign" v-on:change="setTimeValue" id="executionTime" name="executionTime"></vue-clockpicker>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-3 control-label">备注：</label>
+                                                <div class="col-sm-9 input-group">
+                                                    <textarea class="form-control" placeholder="备注" v-model="remark"></textarea>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="form-group">
+
+                                            <button class="btn btn-primary pull-right" id="addPlanTaskBtn" v-on:click="savePlanTask" style="margin:0px 10px;">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                                &nbsp;添加
+                                            </button>
+                                            <button class="btn btn-primary pull-right" id="copyPlanTaskBtn" v-on:click="copyPlanTask">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                                &nbsp;复制一周计划
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--添加巡检任务单-->
+<div class="modal inmodal fade" id="editCardModal" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:450px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editCardForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>变电所：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" v-model="transformerSubstationName" disabled="disabled">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>任务单：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入任务单名称" v-model="cardName" id="cardName" name="cardName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive" id="isActive" name="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">备注：</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" placeholder="备注" v-model="remark"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="saveCard">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--添加巡检任务项-->
+<div class="modal inmodal fade" id="editItemModal" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:900px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" v-on:click="closeModal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="row" id="editItemForm">
+                    <div class="col-sm-6 form-horizontal border-right">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>任务单：</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" v-model="inspectionCardName" disabled="disabled">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>序号：</label>
+                            <div class="col-sm-9">
+                                <input type="number" class="form-control" placeholder="请输入序号" min="0" step="1" oninput="if (value < 0) { value = 0;}" v-model.number="seqNo" id="seqNo" name="seqNo">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">设备类型：</label>
+                            <div class="col-sm-9">
+                                <vue-chosen :placeholder="placeholderForEquipmentType" :default_value="equipmentTypeId" :options="equipmentTypes" v-on:change="setEquipmentTypeId" id="equipmentTypeId" name="equipmentTypeId"></vue-chosen>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">设备信息：</label>
+                            <div class="col-sm-9">
+                                <vue-chosen :placeholder="placeholderForEquipmentInfo" :default_value="equipmentInfoId" :options="equipmentInfos" v-on:change="setEquipmentInfoId" id="equipmentInfoId" name="equipmentInfoId"></vue-chosen>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>摄像头：</label>
+                            <div class="col-sm-9">
+                                <vue-chosen :placeholder="placeholderForVideoDevId" :default_value="videoDevId" :options="videoTerminals" v-on:change="setVideoDevId" id="videoDevId" name="videoDevId"></vue-chosen>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">预置点：</label>
+                            <div class="col-sm-9">
+                                <vue-chosen :placeholder="placeholderForPresetPoint" :default_value="presetPointId" :options="presetPoints" v-on:change="setPresetPointId" id="presetPointId" name="presetPointId"></vue-chosen>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>任务项：</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" placeholder="请输入任务项名称" v-model="itemName" id="itemName" name="itemName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>巡视动作：</label>
+                            <div class="col-sm-9">
+                                <vue-chosen :placeholder="placeholderForProcessAction" :default_value="processAction" :options="processActions" v-on:change="setProcessAction" id="processAction" name="processAction"></vue-chosen>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"><span class="text-danger">*</span>持续时间：</label>
+                            <div class="col-sm-8">
+                                <input type="number" class="form-control" min="0" step="1" oninput="if (value < 0) { value = 0;}" placeholder="请输入持续时间（秒）" v-model.number="processDuration" id="processDuration" name="processDuration">
+                            </div>
+                            <label class="col-sm-1 control-label" style="margin-left:-15px;padding-left:0px">秒</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">图像识别：</label>
+                            <div class="col-sm-3">
+                                <div class="checkbox checkbox-primary">
+                                    <input type="checkbox" v-model="isImageRecognition">
+                                    <label></label>
+                                </div>
+                            </div>
+                            <label class="col-sm-3 control-label">是否启用：</label>
+                            <div class="col-sm-3">
+                                <div class="checkbox checkbox-primary">
+                                    <input type="checkbox" v-model="isActive">
+                                    <label></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">备注：</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" placeholder="备注" v-model="remark"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal" v-on:click="closeModal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="saveItem">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <!-- jsTree -->
+    <script src="~/js/plugins/jsTree/jstree.min.js" type="text/javascript"></script>
+    <script src="~/view-resources/Views/TranSubstation/_TranSubstationTree.js" type="text/javascript"></script>
+
+    <!-- Chosen -->
+    <script src="~/js/plugins/chosen/chosen.jquery.min.js" type="text/javascript"></script>
+    <script src="~/js/plugins/chosen/vue.chosen.js" type="text/javascript"></script>
+    <!-- Clock picker -->
+    <script src="~/js/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.js" type="text/javascript"></script>
+    <script src="~/js/plugins/bootstrap-clockpicker/vue.clockpicker.js" type="text/javascript"></script>
+    <script src="~/view-resources/Views/VideoInspection/VideoInspection.js" type="text/javascript"></script>
+}

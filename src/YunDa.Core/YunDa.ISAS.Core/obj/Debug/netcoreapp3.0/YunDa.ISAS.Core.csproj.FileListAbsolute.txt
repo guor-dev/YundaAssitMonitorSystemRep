@@ -1,0 +1,7 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\bin\Debug\netcoreapp3.0\YunDa.ISAS.Core.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\bin\Debug\netcoreapp3.0\YunDa.ISAS.Core.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\bin\Debug\netcoreapp3.0\YunDa.ISAS.Core.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\obj\Debug\netcoreapp3.0\YunDa.ISAS.Core.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\obj\Debug\netcoreapp3.0\YunDa.ISAS.Core.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\obj\Debug\netcoreapp3.0\YunDa.ISAS.Core.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Core\YunDa.ISAS.Core\obj\Debug\netcoreapp3.0\YunDa.ISAS.Core.pdb

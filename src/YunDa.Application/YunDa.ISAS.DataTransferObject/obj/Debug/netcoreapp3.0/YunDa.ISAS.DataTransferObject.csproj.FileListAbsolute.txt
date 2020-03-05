@@ -1,0 +1,13 @@
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.deps.json
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.xml
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.Entities.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\bin\Debug\netcoreapp3.0\YunDa.ISAS.Entities.pdb
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.csprojAssemblyReference.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.AssemblyInfoInputs.cache
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.AssemblyInfo.cs
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.csproj.CopyComplete
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.dll
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.xml
+D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Application\YunDa.ISAS.DataTransferObject\obj\Debug\netcoreapp3.0\YunDa.ISAS.DataTransferObject.pdb

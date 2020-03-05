@@ -1,0 +1,1509 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YunDa.ISAS.DataTransferObject</name>
+    </assembly>
+    <members>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.Code">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.InstallationDate">
+            <summary>
+            安装时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.ProductionDate">
+            <summary>
+            出厂时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.EquipmentTypeId">
+            <summary>
+            所属设别类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.ManufacturerInfoId">
+            <summary>
+            生产厂商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput.TransformerSubstationId">
+            <summary>
+            所属变电站
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.Code">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.InstallationDate">
+            <summary>
+            安装时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.ProductionDate">
+            <summary>
+            出厂时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.EquipmentTypeId">
+            <summary>
+            所属设别类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.ManufacturerInfoId">
+            <summary>
+            生产厂商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.TransformerSubstationId">
+            <summary>
+            所属变电站
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoProperty.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoProperty.Code">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoProperty.EquipmentTypeId">
+            <summary>
+            所属设别类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoProperty.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.SearchCondition.EquipmentInfoSearchConditionInput.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.SearchCondition.EquipmentInfoSearchConditionInput.Code">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.SearchCondition.EquipmentInfoSearchConditionInput.EquipmentTypeId">
+            <summary>
+            所属设别类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.SearchCondition.EquipmentInfoSearchConditionInput.TransformerSubstationId">
+            <summary>
+            所属变电站
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.SearchCondition.EquipmentInfoSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的数据
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EditEquipmentTypeInput.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EditEquipmentTypeInput.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EquipmentTypeOutput.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EquipmentTypeOutput.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EquipmentTypeProperty.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.SearchCondition.EquipmentTypeSearchConditionInput.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.SearchCondition.EquipmentTypeSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的数据
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.ManufacturerName">
+            <summary>
+            厂商名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.PhoneNumber">
+            <summary>
+            厂商电话
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.EmailAddress">
+            <summary>
+            厂商邮件地址
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.ManufacturerAddress">
+            <summary>
+            厂商邮件地址
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.EditManufacturerInfoInput.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.ManufacturerName">
+            <summary>
+            厂商名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.PhoneNumber">
+            <summary>
+            厂商电话
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.EmailAddress">
+            <summary>
+            厂商邮件地址
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.ManufacturerAddress">
+            <summary>
+            厂商邮件地址
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoOutput.IsActive">
+            <summary>
+            是否在用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.ManufacturerInfoDto.ManufacturerInfoSearchConditionInput.IsOnlyDeleted">
+            <summary>
+            是否查找已经删除的数据
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.EditPowerSupplyLineInput.LineName">
+            <summary>
+            线路名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.EditPowerSupplyLineInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.EditPowerSupplyLineInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.PowerSupplyLineOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.PowerSupplyLineSearchConditionInput.IsNeedChildren">
+            <summary>
+            是否需要查找子元素
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.PowerSupplyLineSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.EditTransformerSubstationInput.SubstationName" -->
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.EditTransformerSubstationInput.CommMgrIP">
+            <summary>
+            负责一个工程内所有变电站的通信
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.EditTransformerSubstationInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.EditTransformerSubstationInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationSearchConditionInput.IsNeedChildren">
+            <summary>
+            是否需要查找子元素
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationOutput.SubstationName" -->
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationOutput.CommMgrIP">
+            <summary>
+            负责一个工程内所有变电站的通信
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.TransformerSubstationProperty.SubstationName" -->
+        <member name="P:YunDa.ISAS.DataTransferObject.PageSearchCondition`1.Sorting">
+            <summary>
+            "Name"
+            "Name DESC"
+            "Name ASC, Age DESC"
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestPageResult`1.TotalCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestPageResult`1.PageIndex">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestPageResult`1.PageSize">
+            <summary>
+            每页显示数量
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestPageResult`1.ResultDatas">
+            <summary>
+            结果集
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestResult`1.TotalCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestResult`1.ResultData">
+            <summary>
+            结果集
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestResult`1.Flag">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.RequestResult`1.Message">
+            <summary>
+            操作结果信息
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.Session.LoginUserOutput">
+            <summary>
+            登录用户返回Model
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.Session.LoginUserOutput.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.Name">
+            <summary>
+            功能名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.Code">
+            <summary>
+            功能编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.Type">
+            <summary>
+            功能类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.LoadUrl">
+            <summary>
+            功能加载链接
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.Icon">
+            <summary>
+            功能显示图标
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.EditFunctionInput.SysFunctionId">
+            <summary>
+            自关联
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput">
+            <summary>
+            系统功能输出文档
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.Name">
+            <summary>
+            功能名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.Code">
+            <summary>
+            功能编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.Type">
+            <summary>
+            功能类别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.LoadUrl">
+            <summary>
+            功能加载链接
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.Icon">
+            <summary>
+            功能显示图标
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionOutput.SysFunctionId">
+            <summary>
+            自关联
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionSearchConditionInput.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionSearchConditionInput.Name">
+            <summary>
+            功能名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionSearchConditionInput.Code">
+            <summary>
+            功能编码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.FunctionDto.FunctionSearchConditionInput.SysFunctionId">
+            <summary>
+            自关联
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.System.UserDto.UserSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.EditInspectionCardInput.CardName">
+            <summary>
+            视频巡检任务单名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.EditInspectionCardInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.EditInspectionCardInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.EditInspectionCardInput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardOutput.CardName">
+            <summary>
+            视频巡检任务单名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardOutput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardProperty.CardName">
+            <summary>
+            视频巡检任务单名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardProperty.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardProperty.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.InspectionCardProperty.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.SearchCondition.InspectionCardSearchConditionInput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.SearchCondition.InspectionCardSearchConditionInput.IsNeedChildren">
+            <summary>
+            是否需要查找子元素
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionCardDto.SearchCondition.InspectionCardSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.ItemName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.ProcessAction">
+            <summary>
+            巡检过程中执行的活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.ProcessDuration">
+            <summary>
+            该过程开始执行到下一过程开始执行，所持续的时间，单位为秒
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.IsImageRecognition">
+            <summary>
+            是否图像识别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.InspectionCardId">
+            <summary>
+            所属任务单
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.VideoDevId">
+            <summary>
+            所属摄像头
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.EditInspectionItemInput.PresetPointId">
+            <summary>
+            所属预置点
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.ItemName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.ProcessAction">
+            <summary>
+            巡检过程中执行的活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.ProcessDuration">
+            <summary>
+            该过程开始执行到下一过程开始执行，所持续的时间，单位为秒
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.IsImageRecognition">
+            <summary>
+            是否图像识别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.InspectionCardId">
+            <summary>
+            所属任务单
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.VideoDevId" -->
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemOutput.PresetPointId">
+            <summary>
+            所属预置点
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.ItemName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.ProcessAction">
+            <summary>
+            巡检过程中执行的活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.ProcessDuration">
+            <summary>
+            该过程开始执行到下一过程开始执行，所持续的时间，单位为秒
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.IsImageRecognition">
+            <summary>
+            是否图像识别
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.InspectionCardId">
+            <summary>
+            所属任务单
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.VideoTerminal">
+            <summary>
+            摄像头信息
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.InspectionItemProperty.PresetPoint">
+            <summary>
+            预置点信息
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemDto.SearchCondition.InspectionItemSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput">
+            <summary>
+            巡检项结果
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.InspectionResultId">
+            <summary>
+            巡检结果ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.ItemId">
+            <summary>
+            巡检项ID，即：巡视点ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.ItemName">
+            <summary>
+            巡检项名称，即：巡视点名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.CameraName">
+            <summary>
+            摄像头名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.AnalysisTime">
+            <summary>
+            分析时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.AnalysisResult">
+            <summary>
+            分析结果
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.FileType">
+            <summary>
+            文件类型 0：照片；1：视频
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.FileExtension">
+            <summary>
+            文件扩展名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.BaseName">
+            <summary>
+            文件基本路径
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput.RelativeName">
+            <summary>
+            文件相对路径
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput">
+            <summary>
+            巡检项结果
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.InspectionResultId">
+            <summary>
+            巡检结果ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.ItemId">
+            <summary>
+            巡检项ID，即：巡视点ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.ItemName">
+            <summary>
+            巡检项名称，即：巡视点名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.CameraName">
+            <summary>
+            摄像头名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.AnalysisTime">
+            <summary>
+            分析时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.AnalysisResult">
+            <summary>
+            分析结果
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.FileType">
+            <summary>
+            文件类型 0：照片；1：视频
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.FileExtension">
+            <summary>
+            文件扩展名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.InspectionItemResultOutput.RelativeName">
+            <summary>
+            文件相对路径
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.SearchCondition.InspectionItemResultSearchConditionInput.InspectionResultId">
+            <summary>
+            巡检结果ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.SearchCondition.InspectionItemResultSearchConditionInput.CameraName">
+            <summary>
+            摄像头名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.SearchCondition.InspectionItemResultSearchConditionInput.MaxAnalysisTime">
+            <summary>
+            最大分析时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.SearchCondition.InspectionItemResultSearchConditionInput.MinAnalysisTime">
+            <summary>
+            最小分析时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.PlanTaskName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.ExecutionWeek">
+            <summary>
+            执行周
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.ExecutionTime">
+            <summary>
+            执行时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.EditInspectionPlanTaskInput.InspectionCardId">
+            <summary>
+            所属任务单
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.PlanTaskName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.ExecutionWeek">
+            <summary>
+            执行周
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.ExecutionTime">
+            <summary>
+            执行时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskInfoOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.PlanTaskName">
+            <summary>
+            任务项名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.ExecutionWeek">
+            <summary>
+            执行周
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.ExecutionTime">
+            <summary>
+            执行时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskOutput.InspectionCardId">
+            <summary>
+            所属任务单
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionPlanTaskDto.InspectionPlanTaskSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.InspectionPerson">
+            <summary>
+            巡检人员
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.CardId">
+            <summary>
+            巡检记录单ID，即：巡检线路ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.CardName">
+            <summary>
+            巡检记录单名称，即：巡检线路名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.InspectionTime">
+            <summary>
+            巡检时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput.InspectionResultType">
+            <summary>
+            巡检类型 0:设备巡检；1:手动巡检
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput">
+            <summary>
+            巡检结果
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.TransformerSubstationId">
+            <summary>
+            所属变电所
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.InspectionPerson">
+            <summary>
+            巡检人员
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.CardId">
+            <summary>
+            巡检记录单ID，即：巡检线路ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.CardName">
+            <summary>
+            巡检记录单名称，即：巡检线路名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.InspectionTime">
+            <summary>
+            巡检时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.InspectionResultOutput.InspectionResultType">
+            <summary>
+            巡检类型  0:设备巡检；1:手动巡检
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.SearchCondition.InspectionResultSearchConditionInput">
+            <summary>
+            巡检结果查询条件
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.SearchCondition.InspectionResultSearchConditionInput.CardName">
+            <summary>
+            巡检记录单名称，即：巡检线路名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.SearchCondition.InspectionResultSearchConditionInput.InspectionTime">
+            <summary>
+            巡检时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.EditPresetPointInput.Name">
+            <summary>
+            预制名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.EditPresetPointInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.EditPresetPointInput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointOutput.Number">
+            <summary>
+            预制点号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointOutput.Name">
+            <summary>
+            预制名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointOutput.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointProperty.Number">
+            <summary>
+            预制点号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointProperty.Name">
+            <summary>
+            预制名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointProperty.IsActive">
+            <summary>
+            是否活动
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointSearchCondition.Number">
+            <summary>
+            预制点号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointSearchCondition.Name">
+            <summary>
+            预制名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointSearchCondition.VideoDevId">
+            <summary>
+            摄像头ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointSearchCondition.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.seqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.ManufacturerInfoId">
+            <summary>
+            生产商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.InstallationDate">
+            <summary>
+            安装时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.ProductionDate">
+            <summary>
+            出厂时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.IP">
+            <summary>
+            设备IP
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.Port">
+            <summary>
+            设备端口号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.DevUserName">
+            <summary>
+            登录设备的用户名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.DevPassword">
+            <summary>
+            登录设备的密码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.ChannelNo">
+            <summary>
+            摄像头占用的硬盘录像机通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.DevNo">
+            <summary>
+            设备通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.IsPTZ">
+            <summary>
+            是否支持云台
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.CodeStreamType">
+            <summary>
+            默认播放码流
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.EditVideoDevInput.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput.IsNeedChildren">
+            <summary>
+            是否需要查找子元素
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput.IsVideoTerminal">
+            <summary>
+            是否是摄像头
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput.IsNeedPresetPoint">
+            <summary>
+            是否需要预置点
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.ManufacturerInfoId">
+            <summary>
+            生产商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.InstallationDate">
+            <summary>
+            安装时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.ProductionDate">
+            <summary>
+            出厂时间
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.IP">
+            <summary>
+            设备IP
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.Port">
+            <summary>
+            设备端口号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.DevUserName">
+            <summary>
+            登录设备的用户名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.DevPassword">
+            <summary>
+            登录设备的密码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.ChannelNo">
+            <summary>
+            摄像头占用的通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.DevNo">
+            <summary>
+            设备通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.IsPTZ">
+            <summary>
+            是否支持云台
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.CodeStreamType">
+            <summary>
+            默认播放码流
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevOutput.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.ManufacturerInfoId">
+            <summary>
+            生产商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.IP">
+            <summary>
+            设备IP
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.Port">
+            <summary>
+            设备端口号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.DevUserName">
+            <summary>
+            登录设备的用户名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.DevPassword">
+            <summary>
+            登录设备的密码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.ChannelNo">
+            <summary>
+            摄像头占用的通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.DevNo">
+            <summary>
+            设备通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.IsPTZ">
+            <summary>
+            是否支持云台
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevProperty.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.ManufacturerInfoId">
+            <summary>
+            生产商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.IP">
+            <summary>
+            设备IP
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.Port">
+            <summary>
+            设备端口号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.DevUserName">
+            <summary>
+            登录设备的用户名
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.DevPassword">
+            <summary>
+            登录设备的密码
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoNVRProperty.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.SeqNo">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.DevType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.ManufacturerInfoId">
+            <summary>
+            生产商
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.ChannelNo">
+            <summary>
+            摄像头占用的通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.DevNo">
+            <summary>
+            设备通道号
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.IsPTZ">
+            <summary>
+            是否支持云台
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.IsActive">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoTerminalProperty.VideoNVR">
+            <summary>
+            NVR硬盘录像机
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.EditVideoDevEquipmentInfoInput.EquipmentInfoId">
+            <summary>
+            关联监控设备表
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.EditVideoDevEquipmentInfoInput.VideoDevId">
+            <summary>
+            关联视频设备表
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.EditVideoDevEquipmentInfoInput.TransformerSubstationId">
+            <summary>
+            所属场站
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.EditVideoDevEquipmentInfoInput.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoSearchConditionInput.TransformerSubstationId">
+            <summary>
+            所属场站
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoSearchConditionInput.EquipmentInfoId">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoSearchConditionInput.VideoDevId">
+            <summary>
+            video设备ID
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoSearchConditionInput.IsOnlyActive">
+            <summary>
+            是否只查找活动的线路
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoOutput.EquipmentInfoId">
+            <summary>
+            关联监控设备表
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoOutput.VideoDevId">
+            <summary>
+            关联视频设备表
+            </summary>
+        </member>
+        <member name="P:YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoOutput.TransformerSubstationId">
+            <summary>
+            所属场站
+            </summary>
+        </member>
+    </members>
+</doc>

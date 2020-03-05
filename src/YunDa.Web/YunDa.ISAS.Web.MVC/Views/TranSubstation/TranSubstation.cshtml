@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "变电站维护";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <style>
+    </style>
+}
+<div class="animated fadeIn" style="height:100%;">
+    <div class="form-inline hidden-xs" id="tablePowerSupplyLineToolbar" role="group">
+        <label class="control-label" for="searchPowerSupplyLineName"><span class="text-danger"></span>线路名称：</label>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入线路名称" id="searchPowerSupplyLineName">
+        </div>
+        <button type="button" class="btn btn-primary" id="searchPowerSupplyLineBtn">
+            <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+        </button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#editPowerSupplyLineModal" id="addPowerSupplyLineBtn">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            &nbsp;添加
+        </button>
+
+        <button type="button" class="btn btn-danger" id="delPowerSupplyLineBtn">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            &nbsp;删除
+        </button>
+    </div>
+    <table id="tranPowerSupplyLineTable" data-height="100%" data-mobile-responsive="true">
+    </table>
+</div>
+<div class="modal inmodal fade" id="editPowerSupplyLineModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:450px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}线路</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editPowerSupplyLineForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="lineName"><span class="text-danger">*</span>线路名称：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入名称" v-model="lineName" id="lineName" name="lineName">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="lineRemark"><span class="text-danger"></span>备注：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入备注" v-model="remark">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive" id="isActive" name="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="saveLine">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal inmodal fade" id="editSubstationModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:450px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}变电所</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editSubstationForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="substationName"><span class="text-danger">*</span>变电所名称：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入名称" v-model="substationName" id="substationName" name="substationName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="commMgrIP"><span class="text-danger"></span>变电所的通信IP：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入IP地址" v-model="commMgrIP" id="commMgrIP" name="commMgrIP">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label" for="stationRemark"><span class="text-danger"></span>备注：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入备注" v-model="remark">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="saveSubstation">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/view-resources/Views/TranSubstation/TranSubstation.js"></script>
+}

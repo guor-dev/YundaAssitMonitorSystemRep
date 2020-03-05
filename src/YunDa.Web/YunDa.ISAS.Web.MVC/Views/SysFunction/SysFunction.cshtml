@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "系统功能";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="animated fadeIn full-height row ">
+    <div class="col-sm-2 border-right full-height" style="padding-right:0px;border-color:#39aef5!important;border-width:2px!important;">
+        @await Html.PartialAsync("~/Views/SysFunction/_SysFunctionTree.cshtml")
+    </div>
+    <div class="col-sm-10 full-height equipment-type">
+        <div class="form-inline hidden-xs" id="tableToolbar" role="group">
+            <div class="form-group">
+                <label class="control-label" for="searchSysFunctionName">功能名称：</label>
+                <input type="text" class="form-control" placeholder="请输入功能名称" id="searchSysFunctionName">
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="searchSysFunctionCode">功能编码：</label>
+                <input type="text" class="form-control" placeholder="请输入功能编码" id="searchSysFunctionCode">
+            </div>
+            <button type="button" class="btn btn-primary" id="searchSysFunctionBtn">
+                <i class="fa fa-search" aria-hidden="true"></i>&nbsp;查询
+            </button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#editSysFunctionModal" id="addSysFunctionBtn">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                &nbsp;添加
+            </button>
+            <button type="button" class="btn btn-danger" id="delSysFunctionBtn">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                &nbsp;删除
+            </button>
+        </div>
+        <table id="tableSysFunction" data-height="100%" data-mobile-responsive="true"></table>
+    </div>
+</div>
+<div class="modal inmodal fade" id="editSysFunctionModal" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" style="width:600px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">{{header}}设备</h4>
+                <input type="hidden" v-model="id" />
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="editForm">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger">*</span>功能名称：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入功能名称" v-model="name" name="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger"></span>功能编码：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入功能编码" v-model="code" name="code">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger"></span>功能类别：</label>
+                        <div class="col-sm-9">
+                            <vue-chosen :placeholder="'请选择功能类别'" :default_value="type" :options="types" v-on:change="setType" name="type"></vue-chosen>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger"></span>功能加载链接：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入功能加载链接" v-model="loadUrl">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><span class="text-danger"></span>功能显示图标：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" placeholder="请输入功能显示图标" v-model="icon">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">是否启用：</label>
+                        <div class="col-sm-9">
+                            <div class="checkbox checkbox-primary">
+                                <input type="checkbox" v-model="isActive">
+                                <label></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">备注：</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" placeholder="备注" v-model="remark"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" v-on:click="save">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/view-resources/Views/SysFunction/SysFunction.js"></script>
+    <script src="~/view-resources/Views/SysFunction/_SysFunctionTree.js"></script>
+    <script src="~/js/plugins/jsTree/jstree.min.js"></script>
+
+    <!-- Chosen -->
+    <script src="~/js/plugins/chosen/chosen.jquery.min.js"></script>
+    <script src="~/js/plugins/chosen/vue.chosen.js"></script>
+
+}
+@section styles{
+    <link href="~/css/plugins/chosen/chosen.min.css" rel="stylesheet">
+    <link href="~/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="~/css/plugins/jsTree/style.min.css" rel="stylesheet">
+    <style>
+        .equipment-type {
+            height: 100%;
+            overflow-y: auto;
+            border-color: #39aef5 !important;
+            border-width: 2px !important;
+        }
+    </style>
+
+}

@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "主页";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <link href="~/css/plugins/bootstrap-datepicker/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="~/css/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <style>
+    </style>
+
+}
+<div class="animated fadeIn" style="height:100%;" id="testApp">
+    <div class="form-horizontal full-height">
+        <div class="form-group">
+        </div>
+        <div class="form-group date">
+            <label class="col-sm-3 control-label">js日期：</label>
+            <div class="col-sm-3">
+                <div class="input-group date" id="testJsDatePicker">
+                    <input type="text" class="form-control datetimepicker" placeholder="请选择时间" readonly="readonly">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group date">
+            <label class="col-sm-3 control-label">vue日期：</label>
+            <div class="col-sm-3">
+                <vue-datepicker :default_value="dateValue" v-on:change="setDateValue"></vue-datepicker>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">vue时间：</label>
+            <div class="col-sm-3">
+                <vue-clockpicker :default_value="timeValue" :time_placement="timePlacement" :time_align="timeAlign" v-on:change="setTimeValue" id="testClockpicker" name="testClockpicker"></vue-clockpicker>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <img src="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E5%9B%BE%E7%89%87&step_word=&hs=2&pn=0&spn=0&di=181390&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=3173584241%2C3533290860&os=1133571898%2C402444249&simid=3493630544%2C246115770&adpicid=0&lpn=0&ln=1501&fr=&fmq=1583227699376_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fa0.att.hudong.com%2F78%2F52%2F01200000123847134434529793168.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fp7rtwg_z%26e3Bkwthj_z%26e3Bv54AzdH3Ftrw1AzdH3Fwa_0b_cd_a8daaaaa8dnb908n99n9cdl0ln8mb_3r2_z%26e3Bip4s&gsm=2&rpstart=0&rpnum=0&islist=&querylist=&force=undefined" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-3">
+                <button class="btn btn-primary" id="mongoDBAddBtn">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    &nbsp;MongoDB添加
+                </button>
+            </div>
+            <div class="col-sm-3">
+                <button class="btn btn-primary" id="mongoDBSearchBtn">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    &nbsp;MongoDB查询
+                </button>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <p class="text-danger" id="mongoDBRstInfo"></p>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="~/js/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+    <script src="~/js/plugins/bootstrap-datepicker/vue.datepicker.js"></script>
+    <script src="~/js/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.js"></script>
+    <script src="~/js/plugins/bootstrap-clockpicker/vue.clockpicker.js"></script>
+    <script src="~/view-resources/Views/Home/test.js"></script>
+
+}

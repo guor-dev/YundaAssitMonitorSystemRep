@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <link href="~/css/plugins/bootstrap-datepicker/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="~/css/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <style>
+    </style>
+
+}
+<div class="animated fadeIn full-height">
+    <div class="full-height" id="echarts-map-chart"></div>
+</div>
+@section scripts{
+    <!-- ECharts -->
+    <script src="~/js/plugins/echarts/echarts-all.js"></script>
+
+    <!-- 自定义js -->
+    <script src="~/js/content.js?v=1.0.0"></script>
+    <!-- ECharts demo data -->
+    @*<script src="~/js/demo/echarts-demo.js"></script>*@
+    <script src="~/view-resources/Views/Home/home.js"></script>
+
+}

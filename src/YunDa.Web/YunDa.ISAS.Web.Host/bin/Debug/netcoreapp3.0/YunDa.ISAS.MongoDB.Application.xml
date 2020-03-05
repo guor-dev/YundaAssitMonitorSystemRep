@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YunDa.ISAS.MongoDB.Application</name>
+    </assembly>
+    <members>
+        <member name="T:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService">
+            <summary>
+            巡检项结果接口服务
+            </summary>
+        </member>
+        <member name="F:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService._inspectionItemResultRepository">
+            <summary>
+            巡检项结果仓储
+            </summary>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService.CreateOrUpdateAsync(YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.EditInspectionItemResultInput)">
+            <summary>
+            巡检项结果编辑
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService.DeleteByIdAsync(System.Guid)">
+            <summary>
+            根据ID删除巡检项结果
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService.DeleteByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            根据ids删除多条巡检项结果
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionItemResultAppService.FindDatas(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionItemResultDto.SearchCondition.InspectionItemResultSearchConditionInput})">
+            <summary>
+            根据条件查询巡检项结果
+            </summary>
+            <param name="searchCondition"></param>
+            <returns></returns>
+        </member>
+        <member name="T:YunDa.ISAS.MongoDB.Application.Inspection.IInspectionResultAppService">
+            <summary>
+            巡检结果接口服务
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService">
+            <summary>
+            巡检结果接口服务
+            </summary>
+        </member>
+        <member name="F:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService._inspectionResultRepository">
+            <summary>
+            巡检结果仓储
+            </summary>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService.CreateOrUpdateAsync(YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.EditInspectionResultInput)">
+            <summary>
+            巡检结果编辑
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService.DeleteByIdAsync(System.Guid)">
+            <summary>
+            根据ID删除巡检结果
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService.DeleteByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            根据ids删除多条巡检项
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.MongoDB.Application.Inspection.InspectionResultAppService.FindDatas(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.VideoSurveillance.InspectionResultDto.SearchCondition.InspectionResultSearchConditionInput})">
+            <summary>
+            根据条件查询巡检结果
+            </summary>
+            <param name="searchCondition"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

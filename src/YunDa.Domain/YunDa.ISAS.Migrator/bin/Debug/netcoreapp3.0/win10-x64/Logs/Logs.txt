@@ -1,0 +1,288 @@
+﻿DEBUG 2019-12-04 13:13:40,602 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-04 13:13:40,707 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-04 13:13:41,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,088 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-04 13:13:41,456 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-04 13:13:41,684 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-04 13:13:41,794 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-04 13:13:41,803 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_self;
+INFO  2019-12-04 13:13:41,806 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-04 13:13:44,531 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-04 13:13:48,960 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-04 13:13:48,961 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-04 13:13:48,961 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-04 13:13:52,892 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-04 13:13:52,892 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-06 09:30:44,858 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-06 09:30:44,934 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-06 09:30:45,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,230 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-06 09:30:45,616 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:30:45,841 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-06 09:30:46,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-06 09:30:46,035 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_self;
+INFO  2019-12-06 09:30:46,038 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-06 09:30:51,329 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-06 09:30:55,232 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-06 09:30:55,232 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-06 09:30:55,232 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-06 09:30:57,180 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-06 09:30:57,181 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-06 09:32:46,562 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-06 09:32:46,615 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-06 09:32:46,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:46,932 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-06 09:32:47,248 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-06 09:32:47,630 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-06 09:32:47,775 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-06 09:32:47,796 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_self;
+INFO  2019-12-06 09:32:47,797 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-06 09:32:51,510 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-06 09:32:54,506 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-06 09:32:54,506 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-06 09:32:54,506 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-06 09:33:08,498 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-06 09:33:08,498 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-10 15:05:23,073 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-10 15:05:23,148 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-10 15:05:23,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,874 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:23,881 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-10 15:05:24,427 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 15:05:24,789 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-10 15:05:24,911 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-10 15:05:24,922 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_self;
+INFO  2019-12-10 15:05:24,924 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-10 15:05:32,129 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-10 15:05:36,373 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-10 15:05:36,374 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-10 15:05:36,374 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-10 15:05:38,467 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-10 15:05:38,468 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-10 16:11:18,208 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-10 16:11:18,333 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-10 16:11:18,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:18,648 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-10 16:11:18,861 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-10 16:11:19,112 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-10 16:11:19,201 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-10 16:11:19,210 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_Self;
+INFO  2019-12-10 16:11:19,213 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-10 16:11:22,764 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-10 16:11:27,170 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-10 16:11:27,170 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-10 16:11:27,170 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-10 16:11:29,754 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-10 16:11:29,755 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-12 10:47:07,256 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-12 10:47:07,409 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-12 10:47:07,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:07,882 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-12 10:47:08,216 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-12 10:47:08,659 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-12 10:47:08,757 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-12 10:47:08,766 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_Self;
+INFO  2019-12-12 10:47:08,768 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-12 10:47:21,582 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-12 10:47:25,775 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-12 10:47:25,775 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-12 10:47:25,775 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-12 10:47:28,658 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-12 10:47:28,658 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-17 09:29:32,620 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-17 09:29:32,743 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-17 09:29:33,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:33,143 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-17 09:29:33,597 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-17 09:29:34,079 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-17 09:29:34,192 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-17 09:29:34,201 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_Self;
+INFO  2019-12-17 09:29:34,203 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-17 09:29:39,066 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-17 09:29:42,822 [1    ] YunDa.ISAS.Migrator.Log                  - An error occured during migration of host database:
+INFO  2019-12-17 09:29:42,923 [1    ] YunDa.ISAS.Migrator.Log                  - System.TypeLoadException: Could not load type 'Microsoft.Extensions.Logging.Abstractions.Internal.NullScope' from assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+   at Microsoft.Extensions.Logging.Logger.BeginScope[TState](TState state)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.InitialHostDbBuilder.CreateRolesAndUsers() in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\InitialHostDbBuilder.cs:line 23
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.InitialHostDbBuilder.Create() in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\InitialHostDbBuilder.cs:line 17
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(ISASDbContext context) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 21
+   at YunDa.ISAS.Migrator.MigrateExecuter.CreateOrMigrate(Action`1 seedAction, String nameOrConnectionString) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 110
+   at YunDa.ISAS.Migrator.MigrateExecuter.CreateOrMigrateForHost(Action`1 seedAction, String nameOrConnectionString) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 96
+   at YunDa.ISAS.Migrator.MigrateExecuter.Run(Boolean skipConnVerification) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 61
+INFO  2019-12-17 09:29:42,923 [1    ] YunDa.ISAS.Migrator.Log                  - Canceled migrations.
+DEBUG 2019-12-17 09:29:47,212 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-17 09:29:47,213 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-24 14:58:54,148 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-24 14:58:54,240 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-24 14:58:54,576 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:54,584 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-24 14:58:55,000 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 14:58:55,259 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-24 14:58:55,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-24 14:58:55,434 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB;
+INFO  2019-12-24 14:58:55,435 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-24 14:59:55,273 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-24 15:00:03,297 [1    ] YunDa.ISAS.Migrator.Log                  - An error occured during migration of host database:
+INFO  2019-12-24 15:00:03,369 [1    ] YunDa.ISAS.Migrator.Log                  - System.TypeLoadException: Could not load type 'Microsoft.Extensions.Logging.Abstractions.Internal.NullScope' from assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+   at Microsoft.Extensions.Logging.Logger.BeginScope[TState](TState state)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass13_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.InitialHostDbBuilder.CreateRolesAndUsers() in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\InitialHostDbBuilder.cs:line 23
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.InitialHostDbBuilder.Create() in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\InitialHostDbBuilder.cs:line 17
+   at YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(ISASDbContext context) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 21
+   at YunDa.ISAS.Migrator.MigrateExecuter.CreateOrMigrate(Action`1 seedAction, String nameOrConnectionString) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 109
+   at YunDa.ISAS.Migrator.MigrateExecuter.CreateOrMigrateForHost(Action`1 seedAction, String nameOrConnectionString) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 96
+   at YunDa.ISAS.Migrator.MigrateExecuter.Run(Boolean skipConnVerification) in D:\Workplace\JDYDProject\JDYDSolution\Code\VS\V_0\ISAS_Base\src\YunDa.Domain\YunDa.ISAS.Migrator\MigrateExecuter.cs:line 61
+INFO  2019-12-24 15:00:03,379 [1    ] YunDa.ISAS.Migrator.Log                  - Canceled migrations.
+DEBUG 2019-12-24 15:02:48,605 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-24 15:02:48,722 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-24 15:02:49,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,086 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-24 15:02:49,423 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-24 15:02:49,800 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-24 15:02:49,993 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-24 15:02:50,022 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_Self;
+INFO  2019-12-24 15:02:50,022 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-24 15:02:52,350 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-24 15:02:56,967 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-24 15:02:56,967 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-24 15:02:56,967 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-24 15:03:00,042 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-24 15:03:00,043 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-31 16:22:18,009 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-31 16:22:18,228 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2019-12-31 16:22:19,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:19,974 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2019-12-31 16:22:20,570 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:22:21,088 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2019-12-31 16:22:21,298 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2019-12-31 16:22:21,341 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB_Self;
+INFO  2019-12-31 16:22:21,342 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2019-12-31 16:22:25,251 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2019-12-31 16:22:30,095 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2019-12-31 16:22:30,095 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2019-12-31 16:22:30,095 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2019-12-31 16:22:31,566 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-31 16:22:31,567 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-01-07 13:51:16,023 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-07 13:51:16,306 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2020-01-07 13:51:17,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:17,029 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2020-01-07 13:51:17,743 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-07 13:51:18,599 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2020-01-07 13:51:18,814 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2020-01-07 13:51:18,851 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB;
+INFO  2020-01-07 13:51:18,851 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-01-07 13:51:53,631 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2020-01-07 13:52:03,892 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2020-01-07 13:52:03,892 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2020-01-07 13:52:03,893 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2020-01-18 10:02:22,126 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-18 10:02:22,408 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2020-01-18 10:02:23,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:23,154 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2020-01-18 10:02:23,794 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 10:02:24,435 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2020-01-18 10:02:24,533 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2020-01-18 10:02:24,606 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB;
+INFO  2020-01-18 10:02:24,607 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-01-18 10:02:27,377 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2020-01-18 10:02:31,098 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2020-01-18 10:02:31,098 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2020-01-18 10:02:31,098 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2020-01-18 10:02:32,291 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-01-18 10:02:32,292 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-01-18 16:38:27,332 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-18 16:38:27,581 [1    ] Abp.Modules.AbpModuleManager             - Found 6 ABP modules in total.
+DEBUG 2020-01-18 16:38:28,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Migrator.ISASMigratorModule, YunDa.ISAS.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASEntityFrameworkCoreModule, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: YunDa.ISAS.Core.ISASCoreModule, YunDa.ISAS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:28,566 [1    ] Abp.Modules.AbpModuleManager             - 6 modules loaded.
+DEBUG 2020-01-18 16:38:29,231 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: YunDa.ISAS.EntityFrameworkCore.EntityFrameworkCore.ISASDbContext, YunDa.ISAS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-18 16:38:29,949 [1    ] Abp.Localization.LocalizationManager     - Initializing 1 localization sources.
+DEBUG 2020-01-18 16:38:30,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+INFO  2020-01-18 16:38:30,215 [1    ] YunDa.ISAS.Migrator.Log                  - Host database: server=127.0.0.1;uid=root;pwd=123456; Database=ISAS_SYS_DB;
+INFO  2020-01-18 16:38:30,217 [1    ] YunDa.ISAS.Migrator.Log                  - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-01-18 16:38:33,642 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration started...
+INFO  2020-01-18 16:38:38,733 [1    ] YunDa.ISAS.Migrator.Log                  - HOST database migration completed.
+INFO  2020-01-18 16:38:38,734 [1    ] YunDa.ISAS.Migrator.Log                  - --------------------------------------------------------
+INFO  2020-01-18 16:38:38,734 [1    ] YunDa.ISAS.Migrator.Log                  - All databases have been migrated.
+DEBUG 2020-01-18 16:38:40,865 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-01-18 16:38:40,865 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.

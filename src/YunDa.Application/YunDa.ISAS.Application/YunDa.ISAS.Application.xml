@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YunDa.ISAS.Application</name>
+    </assembly>
+    <members>
+        <member name="F:YunDa.ISAS.Application.AppConsts.DefaultPassPhrase">
+            <summary>
+            Default pass phrase for SimpleStringCipher decrypt/encrypt operations
+            </summary>
+        </member>
+        <member name="T:YunDa.ISAS.Application.Authorization.Accounts.AccountAppService">
+            <summary>
+            系统账户管理服务
+            </summary>
+        </member>
+        <member name="M:YunDa.ISAS.Application.Authorization.Accounts.AccountAppService.LoginAsync(System.String,System.String)">
+            <summary>
+            系统用户登录
+            </summary>
+            <param name="userName">用户名称</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.EquipmentInfoAppService.VerficationExist(YunDa.ISAS.DataTransferObject.RequestResult{YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EquipmentInfoOutput}@,YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentInfoDto.EditEquipmentInfoInput)">
+            <summary>
+            验证是否存在相同设备
+            </summary>
+            <param name="rst"></param>
+            <param name="input"></param>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.IEquipmentInfoAppService.FindEquipmentById(System.Guid)">
+            <summary>
+            通过Id查找单个数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.EquipmentTypeAppService.VerficationExistName(YunDa.ISAS.DataTransferObject.RequestResult{YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EquipmentTypeOutput}@,YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.EditEquipmentTypeInput)">
+            <summary>
+            验证名称是否已经存在
+            </summary>
+            <param name="rst"></param>
+            <param name="input"></param>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.IEquipmentTypeAppService.FindEquipmentTypeForSelect(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.GeneralInformation.EquipmentTypeDto.SearchCondition.EquipmentTypeSearchConditionInput})">
+            <summary>
+            获取可以选择的设备类型列表
+            </summary>
+            <param name="searchCondition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.IManufacturerInfoAppService.SoftDeleteByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            根据ID数组对数据进行软删除
+            </summary>
+            <param name="ids">ID数组</param>
+            <returns>软删除操作结果</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.IManufacturerInfoAppService.RecoverByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            根据ID数组对数据恢复软删除的数据
+            </summary>
+            <param name="ids">ID数组</param>
+            <returns>软恢复操作结果</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.IPowerSupplyLineAppService.GetPowerSupplyLinesAndChildrenAsync(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.PowerSupplyLineSearchConditionInput})">
+            <summary>
+            查找线路下所有的子节点
+            </summary>
+            <param name="searchCondition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.PowerSupplyLineAppService.CreateOrUpdateAsync(YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.EditPowerSupplyLineInput)">
+            <summary>
+            增改线路数据
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.PowerSupplyLineAppService.FindDatas(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.GeneralInformation.PowerSupplyLineDto.PowerSupplyLineSearchConditionInput})">
+            <summary>
+            获取线路数据
+            </summary>
+            <param name="searchCondition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.GeneralInformation.TransformerSubstationAppService.CreateOrUpdateAsync(YunDa.ISAS.DataTransferObject.GeneralInformation.TransformerSubstationDto.EditTransformerSubstationInput)">
+            <summary>
+            增改线路数据
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.System.FunctionAppService.GetListTreeModelOutput">
+            <summary>
+            获取树形结构
+            </summary>
+            <returns>客户端和浏览器端的树形结构</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.System.FunctionAppService.GetEnumDescription``1(``0)">
+            <summary>
+            获取枚举值上的Description特性的说明
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="obj">枚举值</param>
+            <returns>特性的说明</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.System.IFunctionAppService.FindFunctionTypeForTree">
+            <summary>
+            获取可执行的巡视动作下拉框数据
+            </summary>
+            <returns>返回满足条件的巡视动作</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.System.IFunctionAppService.FindTypesForSelect">
+            <summary>
+            获取供选择的所有功能类别
+            </summary>
+            <returns>返回所有功能类别</returns>
+        </member>
+        <member name="T:YunDa.ISAS.Application.VideoSurveillance.IInspectionCardAppService">
+            <summary>
+            巡检记录单接口服务
+            </summary>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IInspectionItemAppService.FindProcessActionsForSelect">
+            <summary>
+            获取可执行的巡视动作下拉框数据
+            </summary>
+            <returns>返回满足条件的巡视动作</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IInspectionPlanTaskAppService.GetInspectionPlanTaskInfosBySubId(System.Nullable{System.Guid})">
+            <summary>
+            根据变电所ID获取巡检任务信息
+            </summary>
+            <param name="subId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IInspectionPlanTaskAppService.CopyTaskByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>复制删除数据
+            </summary>
+            <param name="ids">ID列表</param>
+            <returns>返回是否复制成功</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.InspectionPlanTaskAppService.CopyTaskByIdsAsync(System.Collections.Generic.List{System.Guid})">
+            <summary>复制删除数据
+            </summary>
+            <param name="ids">ID列表</param>
+            <returns>返回是否复制成功</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IPresetPointAppService.FindPresetPointsForSelect(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.VideoSurveillance.PresetPointDto.PresetPointSearchCondition})">
+            <summary>
+            获取摄像头预置点下拉框数据
+            </summary>
+            <returns>返回满足条件的数据</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IVideoDevEquipmentInfoAppService.FindVideoTerminalForSelect(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevEquipmentInfoDto.VideoDevEquipmentInfoSearchConditionInput})">
+            <summary>
+            获取视频摄像头下拉框数据
+            </summary>
+            <returns>返回下拉框数据</returns>
+        </member>
+        <member name="M:YunDa.ISAS.Application.VideoSurveillance.IVideoDevAppService.FindVideoDevForSelect(YunDa.ISAS.DataTransferObject.PageSearchCondition{YunDa.ISAS.DataTransferObject.VideoSurveillance.VideoDevDto.VideoDevSearchConditionInput})">
+            <summary>
+            获取视频设备下拉框数据
+            </summary>
+            <returns>返回下拉框数据</returns>
+        </member>
+    </members>
+</doc>
